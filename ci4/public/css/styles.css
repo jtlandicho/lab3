@@ -154,10 +154,27 @@ h3{
     display: none;
 }
 
-#button{
-    margin: 0 auto;
+#button1{
+    text-align: center;
 }
-
+#button{
+    background-color: #e2b714; 
+    border: none;
+    color: black;
+    padding: 15px 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Tahoma, sans-serif;
+}
+ 
+#button:hover {background-color: gray}
+ 
+#button:active {
+  background-color: gray;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 #content{
     margin: 0 auto;
 }
